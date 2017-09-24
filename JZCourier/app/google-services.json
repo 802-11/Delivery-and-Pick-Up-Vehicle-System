@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "450197552798",
+    "firebase_url": "https://jzcourier-e581b.firebaseio.com",
+    "project_id": "jzcourier-e581b",
+    "storage_bucket": "jzcourier-e581b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450197552798:android:b844b21f2238c4b1",
+        "android_client_info": {
+          "package_name": "com.example.lithamguzuli.jzcourier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450197552798-gk7i5lbtciq8oooq1ltbuf0gpsckpn6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lithamguzuli.jzcourier",
+            "certificate_hash": "ff37372a044df3afc0257678db148366c1bfc59f"
+          }
+        },
+        {
+          "client_id": "450197552798-5lpcmi7mafb6bc4t8pipsscuqko89ckd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPWp7S8Vf2O4ZnWmA32cZltkKVpxMtRQE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450197552798-5lpcmi7mafb6bc4t8pipsscuqko89ckd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
