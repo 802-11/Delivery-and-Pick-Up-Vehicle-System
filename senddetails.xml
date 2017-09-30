@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:id="@+id/layoutid" android:weightSum="1">
+
+    <TextView
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1) Parcel Details"
+            android:id="@+id/parceltype"/>
+    <Spinner
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/dropweight" android:layout_gravity="right" android:spinnerMode="dropdown"/>
+    <EditText
+            android:layout_width="182dp"
+            android:layout_height="64dp"
+            android:id="@+id/parconttext" android:text="Parcel Content"/>
+    <TextView
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="2)Send from Address/Pick-up"
+            android:id="@+id/fromaddress"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:id="@+id/fromdetails" android:layout_weight="0.10"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="3) Sender Contacts(Cell number)"
+            android:id="@+id/fromnumbid"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editText3" android:layout_gravity="center_horizontal"/>
+    <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="4)Send To Address/Drop-Off"
+            android:id="@+id/toaddress"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:id="@+id/todetails" android:layout_weight="0.15"/>
+    <TextView
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="5)Reciver Contacts(Cell number)"
+            android:id="@+id/tonumbid"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText4"/>
+    <TextView
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="6)Payment Option"
+            android:id="@+id/Paydetails"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:text="Cash"
+            android:id="@+id/cashbutton" android:layout_weight="0.13"/>
+    <Button
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:text="credit"
+            android:id="@+id/creditbutton" android:layout_gravity="right" android:layout_weight="0.20"/>
+</LinearLayout>
