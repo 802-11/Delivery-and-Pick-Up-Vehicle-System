@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.lithamguzuli.jzcourier.RegisterActivity">
+    tools:context="com.example.lithamguzuli.jzcourier.RegisterActivity"
+    android:background="@drawable/image">
 
     <RelativeLayout
         android:layout_width="368dp"

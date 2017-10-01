@@ -19,7 +19,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class SignInActivity extends AppCompatActivity {
+public class SignDriverActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
@@ -100,13 +100,13 @@ public class SignInActivity extends AppCompatActivity {
                         // signed in user can be handled in the listener.
                         if (!task.isSuccessful()) {
                             Log.w(TAG, "signInWithEmail:failed", task.getException());
-                            Toast.makeText(SignInActivity.this, "bumpile sbali",
+                            Toast.makeText(SignDriverActivity.this, "bumpile sbali",
                                     Toast.LENGTH_SHORT).show();
                         }
                         else{
 
-                            Toast.makeText(SignInActivity.this,"Welcome",Toast.LENGTH_SHORT).show();
-                            Intent intent=new Intent(SignInActivity.this,HomeActivity.class);
+                            Toast.makeText(SignDriverActivity.this,"Welcome",Toast.LENGTH_SHORT).show();
+                            Intent intent=new Intent(SignDriverActivity.this,DriveActivity.class);
                             startActivity(intent);
 
                         }

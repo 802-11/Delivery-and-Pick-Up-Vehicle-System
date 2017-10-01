@@ -1,16 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.lithamguzuli.jzcourier.HomeActivity">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="wrap_content"
-        android:layout_height="46dp"
-        android:layout_x="109dp"
-        android:layout_y="155dp"
-        android:text="RadioButton" />
-</AbsoluteLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image2">
+
+        <TextView
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:text="1) Parcel Details"
+            android:id="@+id/parceltype"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:id="@+id/parconttext" android:text=""/>
+        <TextView
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:text="2)Send from Address/Pick-up"
+            android:id="@+id/fromaddress"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:id="@+id/fromdetails" android:layout_weight="0.10"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:text="3) Sender Contacts(Cell number)"
+            android:id="@+id/fromnumbid"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editText3" android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:text="4)Send To Address/Drop-Off"
+            android:id="@+id/toaddress"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:id="@+id/todetails" android:layout_weight="0.15"/>
+        <TextView
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:text="5)Reciver Contacts(Cell number)"
+            android:id="@+id/tonumbid"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText4"/>
+        <TextView
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:text="6)Payment Option"
+            android:id="@+id/Paydetails"/>
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@android:color/white"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <Button
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:text="FINISHED"
+            android:id="@+id/creditbutton" android:layout_gravity="right"></Button>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:text="SAMEDAY DELIVERY(6 - 8 AM)"
+            android:id="@+id/timetext1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:text="OTHERWISE NEXTDAY DELIVERY"
+            android:id="@+id/timeView2"/>
+        <TextClock
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textClock" android:layout_weight="2.00"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:onClick="dotime"
+            android:id="@+id/Sbutton" android:layout_gravity="right"/>
+
+    </LinearLayout>
+</ScrollView>

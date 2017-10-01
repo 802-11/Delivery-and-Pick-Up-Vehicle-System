@@ -17,4 +17,12 @@
     </string>
     <string name="title_activity_map">MapActivity</string>
     <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_start">Start</string>
+    <string name="title_activity_drive">DriveActivity</string>
+    <string name="title_activity_sign_driver">SignDriverActivity</string>
+    <string name="title_activity_employee">EmployeeActivity</string>
+    <string name="title_activity_about_vmm">AboutVMM</string>
+    <string name="title_activity_about_s">AboutSA</string>
+    <string name="title_activity_about_ao">AboutAO</string>
+    <string name="title_activity_about_ceo">AboutCEO</string>
 </resources>

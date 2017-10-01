@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1"
+              android:src="@drawable/image"
+              android:scaleType = "centerCrop"
+              android:background="@drawable/image2">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.44">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:text="Operating Officer"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#ff0000" />
+
+        <ImageButton
+            android:id="@+id/OppOff"
+            android:layout_width="128dp"
+            android:layout_height="161dp"
+            android:layout_gravity="right|top"
+            android:background="@android:color/transparent"
+            android:onClick="getOF"
+            android:src="@drawable/oppoff" />
+
+
+        <ImageButton
+            android:id="@+id/VihManMan"
+            android:layout_width="127dp"
+            android:layout_height="155dp"
+            android:layout_gravity="left|bottom"
+            android:background="@android:color/transparent"
+            android:onClick="getVMM"
+            android:src="@drawable/vihmanman" />
+
+
+
+
+        <ImageButton
+            android:id="@+id/AccOff"
+            android:layout_width="125dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@android:color/transparent"
+            android:onClick="getAO"
+            android:src="@drawable/accoff" />
+
+
+
+        <ImageButton
+            android:id="@+id/FleAssMan"
+            android:layout_width="132dp"
+            android:layout_height="158dp"
+            android:layout_gravity="left|top"
+            android:background="@android:color/transparent"
+            android:onClick="getFAM"
+            android:src="@drawable/fleassman" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:layout_gravity="center_horizontal|top"
+            android:text="Accountent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#ff0000" />
+
+        <ImageButton
+            android:id="@+id/SysAdd"
+            android:layout_width="119dp"
+            android:layout_height="155dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@android:color/transparent"
+            android:onClick="getSA"
+            android:src="@drawable/sysadd" />
+
+        <ImageButton
+            android:id="@+id/TheCeo"
+            android:layout_width="128dp"
+            android:layout_height="156dp"
+            android:layout_gravity="right|bottom"
+            android:background="@android:color/transparent"
+            android:onClick="getTC"
+            android:src="@drawable/theceo" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="System Admin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#ff0000" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="67dp"
+            android:layout_height="28dp"
+            android:layout_gravity="right|bottom"
+            android:text="C.E.O"
+            android:textSize="19sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#ff0000" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:textSize="17sp"
+            android:text="Fleet Assistance"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#ff0000" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:textSize="16sp"
+            android:text="Vehicle Mechanic"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#ff0000" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_gravity="right|top"
+            android:text="Operating Officer"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#ff0000" />
+
+    </FrameLayout>
+
+
+</LinearLayout>
+

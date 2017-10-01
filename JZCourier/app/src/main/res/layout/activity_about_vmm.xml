@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.lithamguzuli.jzcourier.MainActivity"
-    android:background="@drawable/image">
-
+    tools:context="com.example.lithamguzuli.jzcourier.AboutVMM">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -22,7 +20,8 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main" />
+    <include layout="@layout/content_about_vmm"
+        android:id="@+id/include4" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -31,5 +30,20 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="The Vehicle Maintenance Manager is responsible for scheduling maintenance of the vehicles and ensuring that the vehicles meet all laws, regulations and policies. The duties include keeping track of vehicle mileages for trips, recorded fuel consumption of the vehicles" />
+    </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>

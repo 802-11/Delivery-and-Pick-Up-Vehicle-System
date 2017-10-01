@@ -39,7 +39,7 @@
             android:value="AIzaSyBTaK01pDjABGCgh0aMRka007IflBVd4OQ" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".Start"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -67,10 +67,42 @@
             android:label="maps2Activity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ConfirmationActivity" />
-        <activity android:name=".HomeActivity"
-            android:label="HomeActivity">
-
-        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="HomeActivity" />
+        <activity android:name=".homeScreen" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_start"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DriveActivity"
+            android:label="@string/title_activity_drive"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignDriverActivity"
+            android:label="@string/title_activity_sign_driver"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EmployeeActivity"
+            android:label="@string/title_activity_employee"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutVMM"
+            android:label="@string/title_activity_about_vmm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutSA"
+            android:label="@string/title_activity_about_s"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutAO"
+            android:label="@string/title_activity_about_ao"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutCEO"
+            android:label="@string/title_activity_about_ceo"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
